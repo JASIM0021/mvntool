@@ -11,6 +11,15 @@ Inspired by the simplicity of `npm install <package>`, `mvntool` brings a seamle
 
 ---
 
+## Demo
+
+
+https://github.com/user-attachments/assets/92fac595-0282-4c87-834d-6c41be99169d
+
+
+
+---
+
 ## ✨ Features
 
 - Clean and intuitive CLI powered by [picocli](https://picocli.info/)
