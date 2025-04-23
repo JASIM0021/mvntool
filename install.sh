@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://yourdomain.com/mvntool"
+REPO_URL="https://github.com/JASIM0021/mvntool"
 INSTALL_DIR="$HOME/.mvntool"
 BIN_DIR="$HOME/.local/bin"
 JAR_NAME="mvntool.jar"
@@ -12,7 +12,7 @@ mkdir -p "$INSTALL_DIR"
 mkdir -p "$BIN_DIR"
 
 echo "⬇️ Downloading latest version..."
-curl -sSL "$REPO_URL/latest/mvntool.jar" -o "$INSTALL_DIR/$JAR_NAME"
+curl -sSL "$REPO_URL/mvntool.jar" -o "$INSTALL_DIR/$JAR_NAME"
 
 echo "📝 Creating executable script..."
 cat > "$BIN_DIR/$SCRIPT_NAME" <<EOL

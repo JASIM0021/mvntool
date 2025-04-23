@@ -14,7 +14,7 @@ import java.nio.file.StandardCopyOption;
 import java.util.Map;
 
 public class DependencyDB {
-    private static final String DB_URL = "https://yourdomain.com/mvntool/db/dependencies.json";
+    private static final String DB_URL = "https://yourdomain.com/mvntool/dependencies.json";
     private static final Path LOCAL_DB_PATH = Path.of(System.getProperty("user.home"), ".mvntool", "dependencies.json");
     private static Map<String, Map<String, Object>> database;
 

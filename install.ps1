@@ -1,4 +1,4 @@
-$REPO_URL = "https://yourdomain.com/mvntool"
+$REPO_URL = "https://github.com/JASIM0021/mvntool"
 $INSTALL_DIR = "$env:USERPROFILE\.mvntool"
 $BIN_DIR = "$env:USERPROFILE\AppData\Local\Microsoft\WindowsApps"
 $JAR_NAME = "mvntool.jar"
