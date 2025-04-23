@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.mvntool.cli.MvnTool</mainClass>
+                  <mainClass>org.mvntool.cli.MvnTool</mainClass>
                 </transformer>
               </transformers>
             </configuration>
