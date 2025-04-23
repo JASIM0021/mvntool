@@ -12,7 +12,7 @@ mkdir -p "$INSTALL_DIR"
 mkdir -p "$BIN_DIR"
 
 echo "⬇️ Downloading latest version..."
-curl -sSL "$REPO_URL/mvntool.jar" -o "$INSTALL_DIR/$JAR_NAME"
+curl -sSL "$REPO_URL/target/mvntool-1.0.0.jar" -o "$INSTALL_DIR/$JAR_NAME"
 
 echo "📝 Creating executable script..."
 cat > "$BIN_DIR/$SCRIPT_NAME" <<EOL
